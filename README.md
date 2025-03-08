@@ -11,7 +11,7 @@ This tool automatically processes CSV files with different delimiters and normal
 - Standardizing date formats, number representations, and text case
 - Supporting files with or without headers
 
-Features
+## Features
 
 **Delimiter Auto-detection**: Automatically detects if a file uses commas, semicolons, or pipes as delimiters
 
@@ -70,7 +70,7 @@ for row in normalized_data:
 ```
 
 ## Example Output
-```json
+```
 {
     'transaction_date': datetime(2024, 1, 15),
     'description': 'Office Supplies',
@@ -98,5 +98,3 @@ The test script creates and processes the following sample files:
 - **no_header.csv** - File without headers
 
 
-## License
-MIT License
